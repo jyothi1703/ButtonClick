@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Buttonclick';
+  count : number = 0;
+  btnclick() {
+    this.count = this.count+1;
+  }
 }
